@@ -1,0 +1,2 @@
+# aamaz.io
+Personal website
