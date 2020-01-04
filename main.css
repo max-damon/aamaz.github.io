@@ -7,7 +7,8 @@ body {
 	background-position: top;
 	text-align: center;
 	color: black; /* Text color. */
-	font-family: Lato,Avenir,Helvetica,Arial,sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
+	
+	font-family: 'Lato', sans-serif;
 }
 
 img {
@@ -15,9 +16,10 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 20%;
-	border: 5px solid rgb(0, 0, 0);
-    width: 150px;
+	width: 17%;
+	position: fixed, centred;
+	border: 3px solid #e8b47b;
+	
 }
 
 .responsive {
@@ -27,11 +29,12 @@ img {
 
 h1 {
 	font-size: 40px;
+	color: #2c3e50;
 }
 
 h2 {
-	font-size: 25px;
-	color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: #2c3e50;
 }
 
 p {
@@ -43,27 +46,26 @@ p {
 span.name {
 	color: #e8b47b;
 	font-weight: blod;
-	font-family: Gloria Hallelujah;
+	font-family: 'Gloria Hallelujah';
 	font-size: 20;
 }
 
 span.special {
-	color: cornflowerblue;
+	color: rgb(60, 124, 241);
 	font-size: 20px;
-	font-family: Lato,Avenir,Helvetica,Arial,sans-serif;
+	font-family: Lato,'Gloria Hallelujah',Helvetica,Arial,sans-serif, cursive;
 }
 
 /* This just centers the header container vertically on the page. */
 .container-fluid {
-	height: 200px;
+	height: 300px;
 	width: 100%;
-	
-	position: static;
-	top:0;
+	position: middle;
+	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin: auto;
+	margin-top: 10%; /* Pour définir la zone avec le top */
 }
 
 .container-image {
