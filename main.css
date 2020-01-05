@@ -32,9 +32,10 @@ h1 {
 	color: #2c3e50;
 }
 
-h2 {
+span.title {
 	font-size: 20px;
 	color: #2c3e50;
+	font: bold;
 }
 
 p {
@@ -54,6 +55,11 @@ span.special {
 	color: rgb(60, 124, 241);
 	font-size: 20px;
 	font-family: Lato,'Gloria Hallelujah',Helvetica,Arial,sans-serif, cursive;
+}
+
+span.contact {
+	color: #2c3e50;
+	font-size: 15px;
 }
 
 /* This just centers the header container vertically on the page. */
