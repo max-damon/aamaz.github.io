@@ -4,7 +4,7 @@ body {
 	background-size: cover; /* Image covers page. */
 	background-repeat: no-repeat; /* Image does not repeat. */
 	background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
-	background-position: top;
+	background-position: center;
 	text-align: center;
 	color: black; /* Text color. */
 	
@@ -16,7 +16,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 17%;
+	width: 10%;
 	position: fixed, centred;
 	border: 3px solid #e8b47b;
 	
@@ -66,26 +66,24 @@ span.contact {
 .container-fluid {
 	height: 300px;
 	width: 100%;
-	position: middle;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	position: absolute;
+	display: block;
 	margin-top: 10%; /* Pour définir la zone avec le top */
 }
 
 .container-image {
 	position: static;
 	height: auto;
-	width: 20%;
+	width: 10%;
 	margin-top: 15%;
 
 }
 /* Styling for icons. */
 .fa {
-	color: black;
-	margin: 3px 5px;
+	color: #2c3e50;
+	margin: 10px 2px;
 	font-size: 3em !important;
+	width: 5%;
 	
 }
 
@@ -133,4 +131,17 @@ span.contact {
 	background-color: cornflowerblue;
 	;
 	color: white;
+  }
+
+
+  .page-contact {
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	display: block;
+	margin-top: 20%;
+  }
+
+  span.contact-text {
+	  font-size: 30px;
   }
