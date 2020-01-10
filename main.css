@@ -81,9 +81,12 @@ span.contact {
 /* Styling for icons. */
 .fa {
 	color: #2c3e50;
-	margin: 10px 2px;
+	margin: auto 0.8%;
+	position: center;
+	display: relative;
 	font-size: 3em !important;
 	width: 5%;
+	
 	
 }
 
