@@ -1,8 +1,6 @@
 # aamaz.io
-Personal website
 
-Push to online
+Personal Website
 
-Looking for PO / PM position.
+## Visit : https://aamaz.github.io
 
-Open for start-up in Paris ! 
