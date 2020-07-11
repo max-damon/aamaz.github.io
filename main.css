@@ -62,6 +62,13 @@ span.contact {
 	font-size: 15px;
 }
 
+.stuff-page {
+	font-size: 17px;
+	color: #070c2b;
+	text-align: left;
+	margin-left: 30px;
+}
+
 /* This just centers the header container vertically on the page. */
 .container-fluid {
 	height: 300px;
